@@ -88,6 +88,7 @@ namespace WinFormsPrototype
             this.label2.Size = new System.Drawing.Size(254, 38);
             this.label2.TabIndex = 9;
             this.label2.Text = "Menu principal";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // _2daPantalla
             // 
